@@ -19,7 +19,7 @@ struct FimDeJogoView: View {
                     Circle().foregroundColor(.purple)
                     if vencedor == "Empate" {
                         VStack {
-                            Text("Empate")
+                            Text("Empatee")
                                 .font(.custom("Avenir Black", size: 75))
                                 .foregroundColor(.white)
                             Text("Deu Velha :(")
